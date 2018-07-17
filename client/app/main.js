@@ -1,0 +1,8 @@
+"use strict";
+//Responsavel por fazer rodar o import do meu app module
+var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
+var app_module_1 = require('./app.module');
+//const pois ele sempre será desse jeito não sofre alteração
+var platform = platform_browser_dynamic_1.platformBrowserDynamic();
+platform.bootstrapModule(app_module_1.AppModule);
+//# sourceMappingURL=main.js.map
